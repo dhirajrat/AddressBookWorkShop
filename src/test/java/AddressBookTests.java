@@ -1,4 +1,5 @@
-import org.junit.jupiter.api.Assertions;
+import org.junit.Assert;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -8,23 +9,23 @@ public class AddressBookTests {
     @Test
     public void givenContactArrayListShouldMatchAddressBookCreated(){
         ArrayList<Contact> contactArrayList = new ArrayList<>();
-        Contacts contactList = new Contacts();
+        Addressbook contactList = new Addressbook();
 
-        contactArrayList.add(new Contact("Dhiraj","Rathod","Savedi","Anagar","Maha",414003,"dhiru@mail.com",9604508795L));
+        contactArrayList.add(new Contact("Dhiraj","Rathod","Nagar","Maha","9604508795","dhiru@mail.com"));
 
-        contactList.addContact("Dhiraj","Rathod","Savedi","Anagar","Maha",414003,"dhiru@mail.com",9604508795L);
+        contactList.addAContactToAddressbook("Dhiraj","Rathod","Nagar","Maha","9604508795","dhiru@mail.com");
 
-        Assertions.assertTrue((contactArrayList).equals(contactList.getContactList()));
+        Assert.assertTrue((contactArrayList).equals(contactList.getAddressbook()));
     }
 
     @Test
     public void givenContactArrayListShouldMatchAddressBookSize(){
-        Contacts contactList = new Contacts();
+        Addressbook contactList = new Addressbook();
 
-        contactList.addContact("Dhiraj","Rathod","Savedi","Anagar","Maha",414003,"dhiru@mail.com",9604508795L);
-        contactList.addContact("Suraj","Rathod","Savedi","Anagar","Maha",414003,"dhiru@mail.com",9604508795L);
+        contactList.addAContactToAddressbook("Dhiraj","Rathod","Nagar","Maha","9604508795","dhiru@mail.com");
+        contactList.addAContactToAddressbook("Suraj","Rathod","Nagar","Maha","9604508795","dhiru@mail.com");
 
 
-        Assertions.assertEquals(2,contactList.getContactList().size());
+        Assert.assertEquals(2,contactList.getAddressbook().size());
     }
 }

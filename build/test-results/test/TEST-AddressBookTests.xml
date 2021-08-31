@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AddressBookTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-21T06:02:31" hostname="DESKTOP-TLRN2B1" time="0.038">
+<testsuite name="AddressBookTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-31T11:52:20" hostname="DESKTOP-TLRN2B1" time="0.037">
   <properties/>
-  <testcase name="givenContactArrayListShouldMatchAddressBookCreated()" classname="AddressBookTests" time="0.038"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenContactArrayListShouldMatchAddressBookSize()" classname="AddressBookTests" time="0.037"/>
+  <system-out><![CDATA[Contact of Dhiraj added
+Contact of Suraj added
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
