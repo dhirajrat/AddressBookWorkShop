@@ -14,7 +14,7 @@ public class Addressbook {
     }
 
     /**
-     *
+     * Add Contact To AddressBook
      * @param firstName
      * @param lastName
      * @param city
@@ -28,7 +28,7 @@ public class Addressbook {
     }
 
     /**
-     * add Contact To addressBook
+     * add multiple persons Contact To addressBook
      */
     public void addAContactToAddressbook()
     {
