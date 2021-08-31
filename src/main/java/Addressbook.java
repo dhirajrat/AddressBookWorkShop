@@ -184,6 +184,9 @@ public class Addressbook {
         this.addressbook = sortedContactList;
     }
 
+    /**
+     * Sort By Cities
+     */
     public void sortByCity() {
 
         ArrayList<Contact> contactList = this.addressbook;
