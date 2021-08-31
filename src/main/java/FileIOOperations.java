@@ -6,6 +6,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Set;
 
+/**
+ * File IO Operations
+ */
 public class FileIOOperations {
     private static String HOME = System.getProperty("user.home");
     private static String ADDRESS_BOOK_DIR_NAME = "all_address_books_Files";

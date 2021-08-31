@@ -212,7 +212,6 @@ public class Addressbook {
      * Getter
      * @return
      */
-
     public ArrayList<Contact> getAddressbook() {
         return addressbook;
     }
