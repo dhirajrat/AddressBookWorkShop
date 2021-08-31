@@ -29,6 +29,7 @@ public class Addressbook {
 
     /**
      * add multiple persons Contact To addressBook
+     * Ensures No Duplicate Entry added
      */
     public void addAContactToAddressbook()
     {
