@@ -147,6 +147,10 @@ public class Addressbook {
         this.addressbook = contacts;
     }
 
+    /**
+     * Search Peson in a city
+     * @param city
+     */
     public void searchContactByCityOrState(String city){
 
         ArrayList<Contact> contacts = this.addressbook;

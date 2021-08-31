@@ -23,6 +23,9 @@ public class Drive {
         System.out.println("Addressbook "+nameOfAddressbook+" Added");
     }
 
+    /**
+     * search person in a particular city
+     */
     public void searchCityPeopleInDrive(){
         System.out.println("Enter City Or state Name to search");
         Scanner sc3 = new Scanner(System.in);
