@@ -171,6 +171,9 @@ public class Addressbook {
         }
     }
 
+    /**
+     * Sort Entries By name
+     */
     public void sortByName() {
         ArrayList<Contact> contactList = this.addressbook;
         ArrayList<Contact> sortedContactList = (ArrayList<Contact>) contactList.stream()
