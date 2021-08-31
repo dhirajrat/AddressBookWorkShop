@@ -27,6 +27,9 @@ public class Addressbook {
         System.out.println("Contact of "+firstName+" added");
     }
 
+    /**
+     * add Contact To addressBook
+     */
     public void addAContactToAddressbook()
     {
         boolean contactPresent = false;
@@ -57,6 +60,9 @@ public class Addressbook {
         }
     }
 
+    /**
+     * Show people inn addressBook
+     */
     public void showPeopleList()
     {
         ArrayList<Contact> contacts = this.addressbook;
@@ -68,6 +74,9 @@ public class Addressbook {
         System.out.println("----------------------------------------------------------");
     }
 
+    /**
+     * Edit Existing Contact
+     */
     public void  editContactList() {
         String fname;
         Scanner firstNameScanner = new Scanner(System.in);
